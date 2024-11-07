@@ -1,12 +1,10 @@
-function tampilkanPesan() {
-    // Deklarasi variabel dengan berbagai tipe data
+
     let nama = "Rega Nurcahya";
-    let umur = 21;
+    let umur = "21 tahun";
     let mahasiswa = "STT terpadu Nurul fikri";
 
     // Menampilkan pesan menggunakan alert
     alert("Halo, nama saya " + nama + ". Saya berusia " + umur + " tahun. saya adalah mahasiswa dari " + mahasiswa);
 
     // Menampilkan pesan ke konsol browser
-    console.log("Ini adalah pesan yang hanya terlihat di konsol browser.");
-}
+    console.log(nama, umur, mahasiswa);
